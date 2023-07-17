@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "339101639372",
+    "project_id": "meetup-d0fb4",
+    "storage_bucket": "meetup-d0fb4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339101639372:android:739d28658e10517148d869",
+        "android_client_info": {
+          "package_name": "com.example.instagram_clone_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339101639372-htpc92ee0gtt24lstt9tgbbv3d7hcpf5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFLzIWCaO-HLxlLAHDU-EXK04iCLxMlFY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339101639372-htpc92ee0gtt24lstt9tgbbv3d7hcpf5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

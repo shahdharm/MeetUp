@@ -5,6 +5,7 @@ class TextFieldInput extends StatelessWidget {
   final bool isPass;
   final String hintText;
   final TextInputType textInputType;
+
   const TextFieldInput({
     Key? key,
     required this.textEditingController,
@@ -33,11 +34,10 @@ class TextFieldInput extends StatelessWidget {
         border: inputBorder,
         focusedBorder: inputBorder,
         enabledBorder: inputBorder,
-
         contentPadding: const EdgeInsets.all(8),
       ),
       keyboardType: textInputType,
-      obscureText: isPass,
+      obscureText: isPass, // Set obscureText to true for password input
     );
   }
 }

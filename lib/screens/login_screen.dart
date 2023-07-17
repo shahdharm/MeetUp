@@ -124,6 +124,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     hintText: 'Password',
                     textInputType: TextInputType.visiblePassword,
                     textEditingController: _passwordController,
+                    isPass: true, // Set isPass to true for password input
                   ),
                   const SizedBox(height: 50.0),
                   InkWell(
